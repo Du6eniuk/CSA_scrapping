@@ -1,17 +1,7 @@
 # This code is not working anymore. We need to change it
-import requests 
 from bs4 import BeautifulSoup
 import pandas as pd
 from requests_html import HTMLSession
-
-#def get_url(link):
-#    url = link
-#    response = requests.get(url)
-#    html = response.text
-#    soup = BeautifulSoup(html,'html.parser')
-#    adress = soup.find_all('p')[0].text.strip()
-#    return adress
-#print(get_url('https://www.osc.ca/en/investors/warnings/blackbear-ecapital'))
 
 session = HTMLSession()
 
